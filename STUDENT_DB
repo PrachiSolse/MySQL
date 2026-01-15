@@ -19,17 +19,23 @@ INSERT INTO STUDENT VALUES(5,"PARTH",10,590);
 
 #3.Display all records from the students table.
 SELECT * FROM STUDENT
+
 #4.Display only the name and marks columns.
  SELECT NAME, MARKS FROM STUDENT;
+
 #5.Count how many rows are in the table.
 SELECT COUNT(*) FROM STUDENT;
+
 #6.Select students whose marks are greater than 500.
 SELECT NAME FROM STUDENT WHERE MARKS>500;
+
 #7.Select students whose age is equal to 21.
 SELECT NAME FROM STUDENT WHERE AGE=21;
+
 #8.Change a student's marks using UPDATE.
 UPDATE STUDENT SET MARKS=950 WHERE ID=1;
 SELECT * FROM STUDENT
+
 #9.Delete one row using DELETE.
 DELETE FROM STUDENT WHERE ID=2;
 SELECT * FROM STUDENT
